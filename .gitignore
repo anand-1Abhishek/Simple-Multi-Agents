@@ -1,2 +1,48 @@
 .env
 *.env
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.tmp
+*.bak
+
+# === Virtual Environments ===
+.venv/
+venv/
+env/
+ENV/
+
+# === uv cache ===
+.uv/
+.uv.lock
+
+# === IDEs & Editors ===
+.vscode/
+.idea/
+*.swp
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Build / Distribution ===
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# === Environment / Config ===
+.env
+.env.*
+*.sqlite3
+
+# === Jupyter / Notebooks ===
+.ipynb_checkpoints/
+
+uv.lock
